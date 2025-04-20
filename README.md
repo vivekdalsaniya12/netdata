@@ -1,8 +1,11 @@
 ##Monitor System Resources Using Netdata.
 ---
 Run Command To pull IMAGE
-docker run -d --name=netdata -p 19999:19999 netdata/netdata
+
+```docker run -d --name=netdata -p 19999:19999 netdata/netdata```
+
 ##Access The dashboard
+
 Access at `http://localhost:19999`
 ---
 Sign in on netdata
